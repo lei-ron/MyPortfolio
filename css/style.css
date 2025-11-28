@@ -19,15 +19,16 @@ body {
   box-shadow: 6px 6px 0px #111;
 }
 nav {
+  background-color: #9f8257;
   border-bottom: 4px solid #111;
 }
 nav ul {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   list-style: none;
-  gap: 1.5rem;
+  gap: 5rem;
 }
 nav ul li a {
   font-family: "Montserrat", sans-serif;
@@ -37,12 +38,20 @@ nav ul li a {
   color: #111;
 }
 
+.home {
+  padding: 1rem;
+  background-color: #d6cdb1;
+}
+
+.tabs {
+  margin: 0;
+  padding: 1rem;
+  background-color: #d6cdb1;
+}
+
 @media (max-width: 768px) {
   .hero {
     height: 85vh;
-  }
-  nav ul {
-    justify-content: flex-start;
   }
   nav ul li a {
     font-size: 0.7rem;

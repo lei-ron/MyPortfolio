@@ -1,8 +1,11 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  min-height: 100vh;
   font-size: 16px;
   line-height: 1.5;
   color: #111;
@@ -22,29 +25,46 @@ nav {
   background-color: #9f8257;
   border-bottom: 4px solid #111;
 }
-nav ul {
-  margin: 0;
-  padding: 0;
+ul {
   display: flex;
   flex-direction: row;
   list-style: none;
-  gap: 5rem;
 }
-nav ul li a {
+.hero-contents input {
+  display: none;
+}
+
+#home {
+  position: absolute;
+  background-color: #d6cdb1;
+  padding: 1rem 2rem 1.25rem;
+  border-right: 4px solid #111;
+}
+#about {
+  border-right: 4px solid #111;
+  background-color: #baa77d;
+}
+#projects {
+  border-right: 4px solid #111;
+  padding: 1rem 2rem 1rem 10rem;
+  background-color: #baa77d;
+}
+#contact {
+  border-right: 4px solid #111;
+  background-color: #baa77d;
+}
+.hero-contents ul li {
+  cursor: pointer;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 1rem;
   text-decoration: none;
   color: #111;
-}
-
-.home {
-  padding: 1rem;
-  background-color: #d6cdb1;
+  padding: 1rem 2rem;
 }
 
 .tabs {
-  margin: 0;
+  border-top: 4px solid #111;
   padding: 1rem;
   background-color: #d6cdb1;
 }
@@ -53,7 +73,7 @@ nav ul li a {
   .hero {
     height: 85vh;
   }
-  nav ul li a {
+  .hero-contents a {
     font-size: 0.7rem;
   }
 }

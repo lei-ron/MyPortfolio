@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
 }
 body {
   min-height: 100vh;
   font-size: 16px;
   line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
   color: #111;
   background-color: #fff;
 }
@@ -30,41 +30,27 @@ ul {
   flex-direction: row;
   list-style: none;
 }
-.hero-contents input {
-  display: none;
-}
 
-#home {
-  position: absolute;
-  background-color: #d6cdb1;
-  padding: 1rem 2rem 1.25rem;
-  border-right: 4px solid #111;
-}
-#about {
-  border-right: 4px solid #111;
-  background-color: #baa77d;
-}
-#projects {
-  border-right: 4px solid #111;
-  padding: 1rem 2rem 1rem 10rem;
-  background-color: #baa77d;
-}
-#contact {
-  border-right: 4px solid #111;
-  background-color: #baa77d;
-}
-.hero-contents ul li {
+li {
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 1rem;
   text-decoration: none;
   color: #111;
-  padding: 1rem 2rem;
 }
 
-.tabs {
-  border-top: 4px solid #111;
+#home {
+  background-color: #d6cdb1;
+  padding: 1rem 2rem;
+}
+#about,
+#project,
+#contact {
+  background-color: #baa77d;
+  padding: 1rem 2rem;
+}
+.search-container {
   padding: 1rem;
   background-color: #d6cdb1;
 }
@@ -73,7 +59,11 @@ ul {
   .hero {
     height: 85vh;
   }
-  .hero-contents a {
-    font-size: 0.7rem;
+  #home,
+  #project,
+  #about,
+  #contact {
+    padding: 1rem 1.5rem;
+    font-size: 0.5rem;
   }
 }

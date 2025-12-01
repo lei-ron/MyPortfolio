@@ -50,8 +50,16 @@ li {
   background-color: #baa77d;
   padding: 1rem 2rem;
 }
+
+.tabs-filler {
+  background-color: #9f8257;
+  border-left: 4px solid #111;
+  border-bottom: 4px solid #111;
+  width: 41.8rem;
+}
+
 .search-container {
-  padding: 1rem;
+  padding: 2rem;
   background-color: #d6cdb1;
 }
 

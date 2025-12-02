@@ -9,7 +9,7 @@ body {
   line-height: 1.5;
   font-family: Arial, Helvetica, sans-serif;
   color: #111;
-  background-color: #fff;
+  background-color: #3d3d3d;
 }
 .hero {
   width: 90%;
@@ -23,7 +23,7 @@ body {
 }
 nav {
   background-color: #9f8257;
-  border-bottom: 4px solid #111;
+  border-bottom: 2px solid #111;
 }
 ul {
   display: flex;
@@ -38,6 +38,7 @@ li {
   font-size: 1rem;
   text-decoration: none;
   color: #111;
+  white-space: nowrap;
 }
 
 #home {
@@ -53,9 +54,9 @@ li {
 
 .tabs-filler {
   background-color: #9f8257;
-  border-left: 4px solid #111;
-  border-bottom: 4px solid #111;
-  width: 41.8rem;
+  border-left: 2px solid #111;
+  border-bottom: 2px solid #111;
+  width: 100%;
 }
 
 .search-container {

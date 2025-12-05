@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 90%;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0.5% auto 0.5%;
   min-height: 97vh;
   background-color: #f5f5f5;
@@ -52,6 +52,7 @@ li {
   border-radius: 1rem 1rem 0 0;
 }
 #home {
+  box-shadow: 2px 0px 0px #111;
   background-color: #d6cdb1;
   margin: 0.6% 0 0 1%;
   padding: 0.7rem 1rem;

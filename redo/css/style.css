@@ -106,3 +106,9 @@ li {
   margin-top: auto;
   border-bottom: 2px solid #111;
 }
+
+input[type="radio"]:checked + .home {
+  background-color: #ffbf00;
+  color: white;
+  border-color: #ff0000;
+}

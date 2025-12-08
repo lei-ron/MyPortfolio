@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lei's Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,41 +14,42 @@
     />
   </head>
   <body>
-    <section class="hero">
+    <div class="container">
       <nav>
         <ul>
-          <div class="tabs-filler"></div>
-          <li id="home">
-            <img src="assets/icons/home.svg" alt="home" />
+          <span class="tabs-container"></span>
+
+          <li>
+            <input type="radio" name="option" id="1" checked />
+            <label for="1">
+              <span class="tab-name">
+                <img src="assets/icons/home-icon.png" alt=""
+              /></span>
+            </label>
           </li>
-          <li id="project">
-            <img src="assets/icons/projects.svg" alt="project" />Projects
+
+          <li class="proj">
+            <img src="assets/icons/proj-icon.png" alt="" />Projects
           </li>
-          <li id="about">
-            <img src="assets/icons/about.svg" alt="about" />About Me
+
+          <li class="about">
+            <img src="assets/icons/about-icon.png" alt="" />About Me
           </li>
-          <li id="contact">
-            <img src="assets/icons/contact.svg" alt="contact" />Contact
+
+          <li class="cont">
+            <img src="assets/icons/cont-icon.png" alt="" />Contact
+          </li>
+
+          <li class="test">
+            <input type="radio" name="option" id="test" checked />
+            <label for="test">
+              <span class="tab-name">Test</span><span class="tab-content"></span
+            ></label>
           </li>
         </ul>
 
-        <div class="search-container">
-          <div class="search"></div>
-        </div>
+        <span class="search-container"><input type="search" /></span>
       </nav>
-      <div class="contents">
-        <div class="full-name">
-          <h1>Noriel Felipe Jr.</h1>
-        </div>
-        <div class="as">
-          <h2>Front-end Dev.</h2>
-
-          <h2>UI/UX Designer</h2>
-        </div>
-        <div class="profile">
-          <img src="assets/images/tim.png" alt="" />
-        </div>
-      </div>
-    </section>
+    </div>
   </body>
 </html>

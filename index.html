@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Lei's Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,36 +20,55 @@
         <ul>
           <span class="tabs-container"></span>
 
-          <li>
-            <input type="radio" name="option" id="1" checked />
-            <label for="1">
-              <span class="tab-name">
-                <img src="assets/icons/home-icon.png" alt=""
+          <!--* Home Page-->
+          <li class="home">
+            <input type="radio" name="tab_option" id="tab1" checked />
+            <label for="tab1">
+              <span class="tab-label"
+                ><img src="assets/icons/home-icon.png" alt=""
               /></span>
             </label>
           </li>
 
-          <li class="proj">
-            <img src="assets/icons/proj-icon.png" alt="" />Projects
+          <!--* Projects Page-->
+          <li class="projects">
+            <input type="radio" name="tab_option" id="tab2" />
+            <label for="tab2">
+              <span class="tab-label">
+                <img src="assets/icons/proj-icon.png" alt="" />
+                Projects
+              </span>
+            </label>
           </li>
 
+          <!--* About Me Page-->
           <li class="about">
-            <img src="assets/icons/about-icon.png" alt="" />About Me
+            <input type="radio" name="tab_option" id="tab3" />
+            <label for="tab3">
+              <span class="tab-label">
+                <img src="assets/icons/about-icon.png" alt="" />
+                About Me
+              </span>
+            </label>
           </li>
 
-          <li class="cont">
-            <img src="assets/icons/cont-icon.png" alt="" />Contact
+          <!--* Contact Page-->
+          <li class="contact">
+            <input type="radio" name="tab_option" id="tab4" />
+            <label for="tab4">
+              <span class="tab-label">
+                <img src="assets/icons/cont-icon.png" alt="" />
+                Contact
+              </span>
+            </label>
           </li>
 
-          <li class="test">
-            <input type="radio" name="option" id="test" checked />
-            <label for="test">
-              <span class="tab-name">Test</span><span class="tab-content"></span
-            ></label>
-          </li>
+          <span class="tab-pillar"></span>
         </ul>
 
-        <span class="search-container"><input type="search" /></span>
+        <span class="search-container"
+          ><input type="search" name="" id=""
+        /></span>
       </nav>
     </div>
   </body>
